@@ -1,7 +1,13 @@
 //cmake -G "MinGW Makefiles" -S .\.. -B .\..
-#include "tests.h"
+#ifdef TESTS
+    #include "tests.h"
+#endif
+
+#ifdef TEST_FRAMEWORK
+    #include "test_framework.h"
+#endif
+
 #include "main_functions.h"
-#include "test_framework.h"
 #include "tic_tac_toe.h"
 #include "input_output.h"
 const int16_t DIMENSION_GRID = 3;

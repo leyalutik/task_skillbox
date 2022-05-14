@@ -137,16 +137,9 @@ src/CMakeFiles/Tic_tac_toe.dir/input_output.cpp.obj: src/input_output.cpp \
   C:/git/mingw/include/c++/11.2.0/bits/basic_ios.tcc \
   C:/git/mingw/include/c++/11.2.0/bits/ostream.tcc \
   C:/git/mingw/include/c++/11.2.0/istream \
-  C:/git/mingw/include/c++/11.2.0/bits/istream.tcc \
-  include/main_functions.h \
-  C:/git/mingw/include/c++/11.2.0/vector \
-  C:/git/mingw/include/c++/11.2.0/bits/stl_uninitialized.h \
-  C:/git/mingw/include/c++/11.2.0/bits/stl_vector.h \
-  C:/git/mingw/include/c++/11.2.0/bits/stl_bvector.h \
-  C:/git/mingw/include/c++/11.2.0/bits/vector.tcc
+  C:/git/mingw/include/c++/11.2.0/bits/istream.tcc
 
 src/CMakeFiles/Tic_tac_toe.dir/main.cpp.obj: src/main.cpp \
-  include/tests.h \
   include/main_functions.h \
   C:/git/mingw/include/c++/11.2.0/iostream \
   C:/git/mingw/include/c++/11.2.0/x86_64-w64-mingw32/bits/c++config.h \
@@ -288,25 +281,6 @@ src/CMakeFiles/Tic_tac_toe.dir/main.cpp.obj: src/main.cpp \
   C:/git/mingw/include/c++/11.2.0/bits/stl_vector.h \
   C:/git/mingw/include/c++/11.2.0/bits/stl_bvector.h \
   C:/git/mingw/include/c++/11.2.0/bits/vector.tcc \
-  include/test_framework.h \
-  C:/git/mingw/include/c++/11.2.0/sstream \
-  C:/git/mingw/include/c++/11.2.0/bits/sstream.tcc \
-  C:/git/mingw/include/c++/11.2.0/map \
-  C:/git/mingw/include/c++/11.2.0/bits/stl_tree.h \
-  C:/git/mingw/include/c++/11.2.0/ext/aligned_buffer.h \
-  C:/git/mingw/include/c++/11.2.0/bits/node_handle.h \
-  C:/git/mingw/include/c++/11.2.0/bits/stl_map.h \
-  C:/git/mingw/include/c++/11.2.0/tuple \
-  C:/git/mingw/include/c++/11.2.0/utility \
-  C:/git/mingw/include/c++/11.2.0/bits/stl_relops.h \
-  C:/git/mingw/include/c++/11.2.0/array \
-  C:/git/mingw/include/c++/11.2.0/bits/uses_allocator.h \
-  C:/git/mingw/include/c++/11.2.0/bits/invoke.h \
-  C:/git/mingw/include/c++/11.2.0/bits/stl_multimap.h \
-  C:/git/mingw/include/c++/11.2.0/bits/erase_if.h \
-  C:/git/mingw/include/c++/11.2.0/set \
-  C:/git/mingw/include/c++/11.2.0/bits/stl_set.h \
-  C:/git/mingw/include/c++/11.2.0/bits/stl_multiset.h \
   include/tic_tac_toe.h \
   C:/git/mingw/include/c++/11.2.0/ctime \
   include/input_output.h
@@ -1209,6 +1183,8 @@ C:/git/mingw/include/c++/11.2.0/bits/ostream.tcc:
 
 C:/git/mingw/include/c++/11.2.0/bits/istream.tcc:
 
+src/main.cpp:
+
 include/main_functions.h:
 
 C:/git/mingw/include/c++/11.2.0/vector:
@@ -1219,7 +1195,9 @@ C:/git/mingw/include/c++/11.2.0/bits/stl_bvector.h:
 
 C:/git/mingw/include/c++/11.2.0/bits/vector.tcc:
 
-src/main.cpp:
+include/tic_tac_toe.h:
+
+src/test_framework.cpp:
 
 include/test_framework.h:
 
@@ -1250,10 +1228,6 @@ C:/git/mingw/include/c++/11.2.0/bits/erase_if.h:
 C:/git/mingw/include/c++/11.2.0/set:
 
 C:/git/mingw/include/c++/11.2.0/bits/stl_multiset.h:
-
-include/tic_tac_toe.h:
-
-src/test_framework.cpp:
 
 src/tests.cpp:
 
